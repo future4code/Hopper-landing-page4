@@ -19,7 +19,7 @@ main{
     justify-content: space-around;
     align-items: center;
     margin-top: 10%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     text-align: center;
 }
 
@@ -48,7 +48,16 @@ main{
     justify-content: space-around;
     width: 40%;
     background-color: rgb(4, 53, 4);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     text-align: center;
     color: white;
+}
+
+.box-direita{
+    display: flex;
+    justify-content: right;
+    font-family: sans-serif;
+    padding-left: 70%;
+    width: 20%;
+
 }
