@@ -295,7 +295,6 @@ main{
         height: 114px;
     }
     
-    }
     .logo{
         height:114px;
     }
@@ -330,3 +329,219 @@ main{
         text-decoration: none;
       }
     
+    }
+
+    footer{
+        margin: 30px 0px 0px 0px;
+        padding: 5vh;
+        background-color: rgb(2, 32, 2);
+        color: whitesmoke
+    }
+    
+    #fim {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .branco {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+    #fim ul {
+        margin:  auto;
+        padding: auto;
+        text-align: center;
+    }
+    
+    
+    li {
+        list-style: none;
+        padding: 15px;
+    
+    }
+    
+    .logo img {
+        display: flex;
+        max-width: 40%;
+        border-radius: 15px;
+        text-align: left;
+        align-content: center;
+    
+    }
+    
+    .rede-social img {
+        max-width: 40px;
+        text-align: center;
+    }
+    
+    .rede-social h3 {
+        padding: 15px;
+    }
+    
+    .rede-social {
+    
+        text-align: center;
+    }
+    
+    .rede-social p {
+        padding: 5px;
+    }
+    
+    .whats img {
+        max-width: 20px;
+    
+    }
+    
+    
+    /* ------------------------------ Faq Perguntas --------------------------------*/
+    
+    .inicio {
+        background-color: rgb(5, 48, 5);
+        padding: 5vh;
+        margin-bottom: 30px;
+    }
+    
+    .grade {
+        
+        height: 100vh 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: white;
+    
+    }
+    
+    .interrogacao img {
+        max-width: 100%;
+        height: 40vh;
+      
+        border-radius: 30px;
+    
+    }
+    .smart{
+        margin-top: 100px;
+    }
+    
+    .duvida img {
+        max-width: 100%;
+        height: 40vh;
+       
+        border-radius: 30px;
+    
+    }
+    .mesa{
+    margin-top: 100px;
+    }
+    
+    
+    .perguntas ul a li {
+    
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10%;
+      
+    
+    
+    }
+    
+    .perguntas {
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        height: 100vh;
+    
+    }
+    
+    .perguntas ul {
+        border-style: outset;
+        border-width: 10px;
+    }
+    
+    .black {
+        text-decoration: none;
+        color: black;
+    }
+    
+    /* ------------------------Sobre Nos --------------------------------*/
+    .fachada {
+    
+        background-size: 100vw 100vh;
+        background-image: url(/img/fachada.jpg);
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100vh;
+    }
+    
+    .sobre-primeira-coluna {
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+    
+    .sobre-primeira-coluna p {
+        padding: 10px;
+        font-size: 250%;
+        color: whitesmoke;
+        font-family: sans-serif;
+    }
+    
+    .sobre-segunda-coluna {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .sobre-segunda-coluna p {
+        padding: 10px;
+        text-align: center;
+        font-size: 125%;
+        margin: 0 40% 0 0;
+        color: black;
+        font-family: sans-serif;
+        font-weight: bolder;
+    
+    }
+    
+    /*----------------------------------Media------------------------------*/
+    @media (max-width: 800px) {
+        #fim {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .logo img {
+    
+            margin-left: 35%;
+        }
+        .rede-social  {
+           margin-left: 10%;
+        }
+    
+        .perguntas ul {
+            border: none;
+        }
+    
+        .fachada {
+            grid-template-columns: none;
+    
+    
+        }
+    
+        .sobre-segunda-coluna p {
+            padding: auto;
+            margin: auto;
+            font-size: small;
+            text-align: center;
+            bottom: 10vh;
+        }
+    
+        .sobre-primeira-coluna p {
+            font-size: 100%;
+            padding: auto;
+            margin: auto;
+        }
+    }
